@@ -13,7 +13,7 @@ from steves_utils.ORACLE.utils_v2 import (
 # Build all experiment json parameters
 ###########################################
 base_parameters = {}
-base_parameters["experiment_name"] = "MANUAL ORACLE PTN"
+base_parameters["experiment_name"] = FILL_ME
 base_parameters["lr"] = 0.001
 base_parameters["device"] = "cuda"
 base_parameters["max_cache_items"] = 4.5e6

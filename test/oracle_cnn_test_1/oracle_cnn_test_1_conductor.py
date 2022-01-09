@@ -13,7 +13,7 @@ from steves_utils.ORACLE.utils_v2 import (
 # Build all experiment json parameters
 ###########################################
 base_parameters = {}
-base_parameters["experiment_name"] = "MANUAL ORACLE CNN"
+base_parameters["experiment_name"] = FILL_ME
 base_parameters["lr"] = 0.0001
 base_parameters["n_epoch"] = 3
 base_parameters["batch_size"] = 256

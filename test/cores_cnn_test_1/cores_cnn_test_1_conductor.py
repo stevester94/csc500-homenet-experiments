@@ -11,7 +11,7 @@ from steves_utils.CORES.utils import (
 # Build all experiment json parameters
 ###########################################
 base_parameters = {}
-base_parameters["experiment_name"] = "MANUAL CORES CNN"
+base_parameters["experiment_name"] = FILL_ME
 base_parameters["lr"] = 0.001
 base_parameters["device"] = "cuda"
 
