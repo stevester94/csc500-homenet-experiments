@@ -327,14 +327,24 @@ def build_CORES_episodic_iterable(
     root_dir:str=get_cores_dataset_path()
     ) -> tuple:
 
-    train, val, test = get_it(
-        num_examples_per_node_per_day=num_examples_per_node_per_day,
-        nodes_to_get=nodes_to_get,
-        days_to_get=days_to_get,
-        seed=dataset_seed,
-        root_dir=root_dir,
-        normalize=normalize
-    )
+    train = { day: [] for day in days_to_get}
+    val = { day: [] for day in days_to_get}
+    test = { day: [] for day in days_to_get}
+
+    for node in nodes_to_get:
+        for day in days_to_get:
+            single_train, single_val, single_test = get_it(
+                num_examples_per_node_per_day=num_examples_per_node_per_day,
+                nodes_to_get=[node],
+                days_to_get=[day],
+                seed=dataset_seed,
+                root_dir=root_dir,
+                normalize=normalize
+            )
+
+            train[day].extend(single_train[day])
+            val[day].extend(single_val[day])
+            test[day].extend(single_test[day])
 
     train_iters = []
     val_iters   = []
