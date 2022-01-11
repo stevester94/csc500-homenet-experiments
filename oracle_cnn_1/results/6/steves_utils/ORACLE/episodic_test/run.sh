@@ -1,0 +1,1 @@
+PYTHONHASHSEED=1337 ./test.py
