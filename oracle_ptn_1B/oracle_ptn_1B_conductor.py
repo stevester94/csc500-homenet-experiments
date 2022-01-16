@@ -2,37 +2,55 @@
 import json
 import os
 
-from steves_utils.CORES.utils import (
-    ALL_NODES_MINIMUM_1000_EXAMPLES,
-    ALL_NODES,
-    ALL_DAYS
+from steves_utils.ORACLE.utils_v2 import (
+    ALL_DISTANCES_FEET,
+    ALL_SERIAL_NUMBERS,
+    ALL_RUNS,
+    serial_number_to_id
 )
 
 ###########################################
 # Build all experiment json parameters
 ###########################################
 base_parameters = {}
-base_parameters["experiment_name"] = "cores_cnn_3"
-base_parameters["lr"] = 0.001
+base_parameters["experiment_name"] = "oracle_ptn_1"
+base_parameters["lr"] = 0.0001
 base_parameters["device"] = "cuda"
 
 base_parameters["seed"] = 1337
-base_parameters["desired_classes"] = ALL_NODES
+base_parameters["desired_classes_source"] = ALL_SERIAL_NUMBERS
+base_parameters["desired_classes_target"] = ALL_SERIAL_NUMBERS
 
-# base_parameters["source_domains"] = [1]
-# base_parameters["target_domains"] = [2,3,4,5]
+# base_parameters["source_domains"] = [38,]
+# base_parameters["target_domains"] = [20,44,
+#     2,
+#     8,
+#     14,
+#     26,
+#     32,
+#     50,
+#     56,
+#     62
+# ]
 
-# base_parameters["num_examples_per_class_per_domain"]=100
+base_parameters["num_examples_per_class_per_domain_source"]=1000
+base_parameters["num_examples_per_class_per_domain_target"]=1000
 
-base_parameters["batch_size"]=128
+base_parameters["n_shot"] = 3
+base_parameters["n_way"]  = len(base_parameters["desired_classes_source"])
+base_parameters["n_query"]  = 2
+base_parameters["train_k_factor"] = 1
+base_parameters["val_k_factor"] = 2
+base_parameters["test_k_factor"] = 2
+
 
 base_parameters["n_epoch"] = 100
 
 base_parameters["patience"] = 10
-
-base_parameters["criteria_for_best"] = "target"
+base_parameters["criteria_for_best"] = "source"
 base_parameters["normalize_source"] = False
 base_parameters["normalize_target"] = False
+
 
 base_parameters["x_net"] =     [
     {"class": "nnReshape", "kargs": {"shape":[-1, 1, 2, 256]}},
@@ -49,21 +67,23 @@ base_parameters["x_net"] =     [
     {"class": "ReLU", "kargs": {"inplace": True}},
     {"class": "BatchNorm1d", "kargs": {"num_features":256}},
 
-    {"class": "Linear", "kargs": {"in_features": 256, "out_features": len(base_parameters["desired_classes"])}},
+    {"class": "Linear", "kargs": {"in_features": 256, "out_features": 256}},
 ]
 
+# Parameters relevant to results
+# These parameters will basically never need to change
 base_parameters["NUM_LOGS_PER_EPOCH"] = 10
 base_parameters["RESULTS_DIR"] = "./results"
 base_parameters["EXPERIMENT_JSON_PATH"] = os.path.join(base_parameters["RESULTS_DIR"], "experiment.json")
 base_parameters["LOSS_CURVE_PATH"] = os.path.join(base_parameters["RESULTS_DIR"], "loss.png")
 base_parameters["BEST_MODEL_PATH"] = os.path.join(base_parameters["RESULTS_DIR"], "best_model.pth")
 
+
 parameters = base_parameters
 
 # These will get permuted so we cover every possible case
 custom_parameters = {}
 custom_parameters["seed"] = [1337, 1984, 2020, 18081994, 4321326]
-custom_parameters['num_examples_per_class_per_domain'] = [100]
 
 experiment_jsons = []
 import copy
@@ -73,11 +93,17 @@ permutations_dicts = [dict(zip(keys, v)) for v in itertools.product(*values)]
 
 #([], [2,8,14,20,26,32,38,44,50,56,62]),
 for source_domains, target_domains in [
-    ([1], [2,3,4,5]),
-    ([2], [1,3,4,5]),
-    ([3], [1,2,4,5]),
-    ([4], [1,2,3,5]),
-    ([5], [1,2,3,4]),
+    ([2], [8,14,20,26,32,38,44,50,56,62]),
+    #([8], [2,14,20,26,32,38,44,50,56,62]),
+    ([14], [2,8,20,26,32,38,44,50,56,62]),
+    #([20], [2,8,14,26,32,38,44,50,56,62]),
+    ([26], [2,8,14,20,32,38,44,50,56,62]),
+    #([32], [2,8,14,20,26,38,44,50,56,62]),
+    ([38], [2,8,14,20,26,32,44,50,56,62]),
+    #([44], [2,8,14,20,26,32,38,50,56,62]),
+    ([50], [2,8,14,20,26,32,38,44,56,62]),
+    #([56], [2,8,14,20,26,32,38,44,50,62]),
+    ([62], [2,8,14,20,26,32,38,44,50,56]),
 ]:
     for d in permutations_dicts:
         parameters = copy.deepcopy(base_parameters)
@@ -103,7 +129,7 @@ from steves_utils.conductor import Conductor
 
 conductor = Conductor(
     TRIALS_BASE_PATH=os.path.realpath("./results/"),
-    EXPERIMENT_PATH=os.path.join(os.environ["DRIVER_ROOT_PATH"], "CORES/cnn/driver_1/"),
+    EXPERIMENT_PATH=os.path.join(os.environ["DRIVER_ROOT_PATH"], "ORACLE/ptn/driver_1/"),
     KEEP_MODEL=True,
 )
 conductor.conduct_experiments(experiment_jsons)
