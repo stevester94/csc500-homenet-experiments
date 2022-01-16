@@ -16,10 +16,8 @@ base_parameters = {}
 base_parameters["experiment_name"] = "oracle_ptn_1"
 base_parameters["lr"] = 0.0001
 base_parameters["device"] = "cuda"
-base_parameters["max_cache_items"] = 4.5e6
 
 base_parameters["seed"] = 1337
-base_parameters["dataset_seed"] = 1337
 base_parameters["desired_classes_source"] = ALL_SERIAL_NUMBERS
 base_parameters["desired_classes_target"] = ALL_SERIAL_NUMBERS
 
@@ -35,9 +33,6 @@ base_parameters["desired_classes_target"] = ALL_SERIAL_NUMBERS
 #     62
 # ]
 
-base_parameters["window_stride"]=50
-base_parameters["window_length"]=512
-base_parameters["desired_runs"]=[1]
 base_parameters["num_examples_per_class_per_domain_source"]=2000
 base_parameters["num_examples_per_class_per_domain_target"]=2000
 
