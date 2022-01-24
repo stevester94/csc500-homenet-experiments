@@ -1,0 +1,295 @@
+[CONDUCTOR]: Begin experiment at /mnt/wd500GB/CSC500/csc500-super-repo/csc500-homenet-experiments/oracle_ptn_1/results/7
+[W Context.cpp:70] Warning: torch.use_deterministic_algorithms is in beta, and its design and functionality may change in the future. (function operator())
+epoch: 1, [batch: 1 / 280], examples_per_second: 5.8658, train_label_loss: 2.7322, 
+epoch: 1, [batch: 28 / 280], examples_per_second: 151.7552, train_label_loss: 1.9937, 
+epoch: 1, [batch: 56 / 280], examples_per_second: 206.2224, train_label_loss: 1.5410, 
+epoch: 1, [batch: 84 / 280], examples_per_second: 140.0705, train_label_loss: 1.3219, 
+epoch: 1, [batch: 112 / 280], examples_per_second: 144.3520, train_label_loss: 1.2951, 
+epoch: 1, [batch: 140 / 280], examples_per_second: 147.8363, train_label_loss: 2.0147, 
+epoch: 1, [batch: 168 / 280], examples_per_second: 152.8316, train_label_loss: 1.6989, 
+epoch: 1, [batch: 196 / 280], examples_per_second: 177.7351, train_label_loss: 1.3012, 
+epoch: 1, [batch: 224 / 280], examples_per_second: 172.0280, train_label_loss: 1.5715, 
+epoch: 1, [batch: 252 / 280], examples_per_second: 176.0853, train_label_loss: 1.4965, 
+=============================================================
+epoch: 1, source_val_acc_label: 0.3779, target_val_acc_label: 0.3177, source_val_label_loss: 1.5616, target_val_label_loss: 2.6395, 
+=============================================================
+New best
+epoch: 2, [batch: 1 / 280], examples_per_second: 0.6199, train_label_loss: 1.4387, 
+epoch: 2, [batch: 28 / 280], examples_per_second: 130.6995, train_label_loss: 1.5585, 
+epoch: 2, [batch: 56 / 280], examples_per_second: 149.3087, train_label_loss: 1.4978, 
+epoch: 2, [batch: 84 / 280], examples_per_second: 148.9368, train_label_loss: 1.4433, 
+epoch: 2, [batch: 112 / 280], examples_per_second: 151.7087, train_label_loss: 1.3149, 
+epoch: 2, [batch: 140 / 280], examples_per_second: 151.7922, train_label_loss: 1.3087, 
+epoch: 2, [batch: 168 / 280], examples_per_second: 160.4246, train_label_loss: 1.4674, 
+epoch: 2, [batch: 196 / 280], examples_per_second: 180.6631, train_label_loss: 1.5291, 
+epoch: 2, [batch: 224 / 280], examples_per_second: 299.3792, train_label_loss: 1.3162, 
+epoch: 2, [batch: 252 / 280], examples_per_second: 223.0447, train_label_loss: 1.5032, 
+=============================================================
+epoch: 2, source_val_acc_label: 0.4419, target_val_acc_label: 0.3593, source_val_label_loss: 1.3927, target_val_label_loss: 2.4714, 
+=============================================================
+New best
+epoch: 3, [batch: 1 / 280], examples_per_second: 0.6162, train_label_loss: 1.0541, 
+epoch: 3, [batch: 28 / 280], examples_per_second: 150.1636, train_label_loss: 1.3842, 
+epoch: 3, [batch: 56 / 280], examples_per_second: 212.8472, train_label_loss: 1.2415, 
+epoch: 3, [batch: 84 / 280], examples_per_second: 140.9344, train_label_loss: 1.5660, 
+epoch: 3, [batch: 112 / 280], examples_per_second: 145.0658, train_label_loss: 1.4619, 
+epoch: 3, [batch: 140 / 280], examples_per_second: 151.9647, train_label_loss: 1.3290, 
+epoch: 3, [batch: 168 / 280], examples_per_second: 157.7666, train_label_loss: 1.3838, 
+epoch: 3, [batch: 196 / 280], examples_per_second: 166.3717, train_label_loss: 1.0218, 
+epoch: 3, [batch: 224 / 280], examples_per_second: 180.7051, train_label_loss: 1.1703, 
+epoch: 3, [batch: 252 / 280], examples_per_second: 176.9051, train_label_loss: 1.1539, 
+=============================================================
+epoch: 3, source_val_acc_label: 0.4635, target_val_acc_label: 0.3324, source_val_label_loss: 1.3659, target_val_label_loss: 2.5070, 
+=============================================================
+New best
+epoch: 4, [batch: 1 / 280], examples_per_second: 0.6215, train_label_loss: 1.1003, 
+epoch: 4, [batch: 28 / 280], examples_per_second: 135.0004, train_label_loss: 1.2501, 
+epoch: 4, [batch: 56 / 280], examples_per_second: 167.9795, train_label_loss: 1.1253, 
+epoch: 4, [batch: 84 / 280], examples_per_second: 156.9984, train_label_loss: 1.2935, 
+epoch: 4, [batch: 112 / 280], examples_per_second: 149.7820, train_label_loss: 1.3848, 
+epoch: 4, [batch: 140 / 280], examples_per_second: 151.4048, train_label_loss: 1.2663, 
+epoch: 4, [batch: 168 / 280], examples_per_second: 165.1840, train_label_loss: 1.2349, 
+epoch: 4, [batch: 196 / 280], examples_per_second: 172.7427, train_label_loss: 1.3138, 
+epoch: 4, [batch: 224 / 280], examples_per_second: 174.1754, train_label_loss: 1.2196, 
+epoch: 4, [batch: 252 / 280], examples_per_second: 176.8043, train_label_loss: 1.3145, 
+=============================================================
+epoch: 4, source_val_acc_label: 0.4911, target_val_acc_label: 0.3289, source_val_label_loss: 1.2805, target_val_label_loss: 2.4698, 
+=============================================================
+New best
+epoch: 5, [batch: 1 / 280], examples_per_second: 0.6135, train_label_loss: 1.1914, 
+epoch: 5, [batch: 28 / 280], examples_per_second: 137.6352, train_label_loss: 1.0826, 
+epoch: 5, [batch: 56 / 280], examples_per_second: 142.5590, train_label_loss: 1.0724, 
+epoch: 5, [batch: 84 / 280], examples_per_second: 145.1955, train_label_loss: 0.8845, 
+epoch: 5, [batch: 112 / 280], examples_per_second: 208.7795, train_label_loss: 1.1706, 
+epoch: 5, [batch: 140 / 280], examples_per_second: 251.3692, train_label_loss: 1.4065, 
+epoch: 5, [batch: 168 / 280], examples_per_second: 265.9070, train_label_loss: 1.2183, 
+epoch: 5, [batch: 196 / 280], examples_per_second: 280.5733, train_label_loss: 1.1918, 
+epoch: 5, [batch: 224 / 280], examples_per_second: 299.8079, train_label_loss: 1.2613, 
+epoch: 5, [batch: 252 / 280], examples_per_second: 318.9483, train_label_loss: 1.1581, 
+=============================================================
+epoch: 5, source_val_acc_label: 0.4906, target_val_acc_label: 0.3066, source_val_label_loss: 1.2775, target_val_label_loss: 2.6850, 
+=============================================================
+New best
+epoch: 6, [batch: 1 / 280], examples_per_second: 0.7085, train_label_loss: 0.9770, 
+epoch: 6, [batch: 28 / 280], examples_per_second: 128.7252, train_label_loss: 1.7268, 
+epoch: 6, [batch: 56 / 280], examples_per_second: 134.4179, train_label_loss: 1.2810, 
+epoch: 6, [batch: 84 / 280], examples_per_second: 152.5521, train_label_loss: 1.0156, 
+epoch: 6, [batch: 112 / 280], examples_per_second: 149.6851, train_label_loss: 1.3667, 
+epoch: 6, [batch: 140 / 280], examples_per_second: 151.6498, train_label_loss: 1.1763, 
+epoch: 6, [batch: 168 / 280], examples_per_second: 169.6461, train_label_loss: 1.2046, 
+epoch: 6, [batch: 196 / 280], examples_per_second: 173.3167, train_label_loss: 1.0676, 
+epoch: 6, [batch: 224 / 280], examples_per_second: 173.8474, train_label_loss: 1.3788, 
+epoch: 6, [batch: 252 / 280], examples_per_second: 195.8350, train_label_loss: 1.1210, 
+=============================================================
+epoch: 6, source_val_acc_label: 0.5344, target_val_acc_label: 0.3206, source_val_label_loss: 1.2180, target_val_label_loss: 2.3544, 
+=============================================================
+New best
+epoch: 7, [batch: 1 / 280], examples_per_second: 0.6563, train_label_loss: 1.2816, 
+epoch: 7, [batch: 28 / 280], examples_per_second: 140.3750, train_label_loss: 1.3423, 
+epoch: 7, [batch: 56 / 280], examples_per_second: 141.7294, train_label_loss: 1.0861, 
+epoch: 7, [batch: 84 / 280], examples_per_second: 151.3100, train_label_loss: 0.8783, 
+epoch: 7, [batch: 112 / 280], examples_per_second: 240.1115, train_label_loss: 1.0783, 
+epoch: 7, [batch: 140 / 280], examples_per_second: 183.4296, train_label_loss: 1.1818, 
+epoch: 7, [batch: 168 / 280], examples_per_second: 165.6015, train_label_loss: 1.0441, 
+epoch: 7, [batch: 196 / 280], examples_per_second: 164.8784, train_label_loss: 1.3580, 
+epoch: 7, [batch: 224 / 280], examples_per_second: 164.1640, train_label_loss: 1.2142, 
+epoch: 7, [batch: 252 / 280], examples_per_second: 162.9682, train_label_loss: 1.1212, 
+=============================================================
+epoch: 7, source_val_acc_label: 0.5320, target_val_acc_label: 0.3248, source_val_label_loss: 1.2243, target_val_label_loss: 2.3015, 
+=============================================================
+epoch: 8, [batch: 1 / 280], examples_per_second: 0.6446, train_label_loss: 1.3125, 
+epoch: 8, [batch: 28 / 280], examples_per_second: 132.7113, train_label_loss: 0.8909, 
+epoch: 8, [batch: 56 / 280], examples_per_second: 135.7627, train_label_loss: 1.1756, 
+epoch: 8, [batch: 84 / 280], examples_per_second: 137.4725, train_label_loss: 1.1436, 
+epoch: 8, [batch: 112 / 280], examples_per_second: 143.5880, train_label_loss: 0.7500, 
+epoch: 8, [batch: 140 / 280], examples_per_second: 162.0978, train_label_loss: 1.4319, 
+epoch: 8, [batch: 168 / 280], examples_per_second: 160.0197, train_label_loss: 1.1128, 
+epoch: 8, [batch: 196 / 280], examples_per_second: 171.3428, train_label_loss: 0.9476, 
+epoch: 8, [batch: 224 / 280], examples_per_second: 174.1363, train_label_loss: 1.1921, 
+epoch: 8, [batch: 252 / 280], examples_per_second: 176.9820, train_label_loss: 0.9368, 
+=============================================================
+epoch: 8, source_val_acc_label: 0.5260, target_val_acc_label: 0.2927, source_val_label_loss: 1.2320, target_val_label_loss: 2.4858, 
+=============================================================
+epoch: 9, [batch: 1 / 280], examples_per_second: 0.6465, train_label_loss: 0.9816, 
+epoch: 9, [batch: 28 / 280], examples_per_second: 137.8674, train_label_loss: 1.3553, 
+epoch: 9, [batch: 56 / 280], examples_per_second: 139.3033, train_label_loss: 1.0433, 
+epoch: 9, [batch: 84 / 280], examples_per_second: 146.5126, train_label_loss: 0.9866, 
+epoch: 9, [batch: 112 / 280], examples_per_second: 149.4278, train_label_loss: 0.9670, 
+epoch: 9, [batch: 140 / 280], examples_per_second: 158.6071, train_label_loss: 0.9064, 
+epoch: 9, [batch: 168 / 280], examples_per_second: 264.1586, train_label_loss: 0.8831, 
+epoch: 9, [batch: 196 / 280], examples_per_second: 203.1752, train_label_loss: 1.3208, 
+epoch: 9, [batch: 224 / 280], examples_per_second: 164.6530, train_label_loss: 1.0701, 
+epoch: 9, [batch: 252 / 280], examples_per_second: 164.1173, train_label_loss: 1.0588, 
+=============================================================
+epoch: 9, source_val_acc_label: 0.5227, target_val_acc_label: 0.3153, source_val_label_loss: 1.2345, target_val_label_loss: 2.3301, 
+=============================================================
+epoch: 10, [batch: 1 / 280], examples_per_second: 0.6258, train_label_loss: 0.8683, 
+epoch: 10, [batch: 28 / 280], examples_per_second: 183.8016, train_label_loss: 0.9548, 
+epoch: 10, [batch: 56 / 280], examples_per_second: 137.3359, train_label_loss: 1.1309, 
+epoch: 10, [batch: 84 / 280], examples_per_second: 137.7795, train_label_loss: 1.0914, 
+epoch: 10, [batch: 112 / 280], examples_per_second: 139.0239, train_label_loss: 1.0258, 
+epoch: 10, [batch: 140 / 280], examples_per_second: 147.9874, train_label_loss: 0.8783, 
+epoch: 10, [batch: 168 / 280], examples_per_second: 174.3718, train_label_loss: 0.8316, 
+epoch: 10, [batch: 196 / 280], examples_per_second: 172.8931, train_label_loss: 0.8316, 
+epoch: 10, [batch: 224 / 280], examples_per_second: 173.8673, train_label_loss: 1.0461, 
+epoch: 10, [batch: 252 / 280], examples_per_second: 175.6162, train_label_loss: 0.8188, 
+=============================================================
+epoch: 10, source_val_acc_label: 0.5385, target_val_acc_label: 0.2893, source_val_label_loss: 1.2108, target_val_label_loss: 2.4135, 
+=============================================================
+New best
+epoch: 11, [batch: 1 / 280], examples_per_second: 0.6248, train_label_loss: 0.9880, 
+epoch: 11, [batch: 28 / 280], examples_per_second: 143.8446, train_label_loss: 0.7873, 
+epoch: 11, [batch: 56 / 280], examples_per_second: 147.2233, train_label_loss: 1.0259, 
+epoch: 11, [batch: 84 / 280], examples_per_second: 148.7231, train_label_loss: 0.9691, 
+epoch: 11, [batch: 112 / 280], examples_per_second: 149.5708, train_label_loss: 0.7264, 
+epoch: 11, [batch: 140 / 280], examples_per_second: 151.5778, train_label_loss: 1.0127, 
+epoch: 11, [batch: 168 / 280], examples_per_second: 162.9838, train_label_loss: 0.9447, 
+epoch: 11, [batch: 196 / 280], examples_per_second: 280.8998, train_label_loss: 1.0780, 
+epoch: 11, [batch: 224 / 280], examples_per_second: 221.3256, train_label_loss: 0.7755, 
+epoch: 11, [batch: 252 / 280], examples_per_second: 164.7453, train_label_loss: 0.9859, 
+=============================================================
+epoch: 11, source_val_acc_label: 0.5471, target_val_acc_label: 0.3077, source_val_label_loss: 1.2156, target_val_label_loss: 2.2825, 
+=============================================================
+epoch: 12, [batch: 1 / 280], examples_per_second: 0.6164, train_label_loss: 0.9923, 
+epoch: 12, [batch: 28 / 280], examples_per_second: 197.3887, train_label_loss: 0.8606, 
+epoch: 12, [batch: 56 / 280], examples_per_second: 156.2150, train_label_loss: 0.8091, 
+epoch: 12, [batch: 84 / 280], examples_per_second: 140.7614, train_label_loss: 0.8997, 
+epoch: 12, [batch: 112 / 280], examples_per_second: 142.6055, train_label_loss: 0.8561, 
+epoch: 12, [batch: 140 / 280], examples_per_second: 143.4677, train_label_loss: 1.0568, 
+epoch: 12, [batch: 168 / 280], examples_per_second: 163.3401, train_label_loss: 1.0933, 
+epoch: 12, [batch: 196 / 280], examples_per_second: 173.7597, train_label_loss: 0.7895, 
+epoch: 12, [batch: 224 / 280], examples_per_second: 172.6645, train_label_loss: 1.1058, 
+epoch: 12, [batch: 252 / 280], examples_per_second: 174.7565, train_label_loss: 0.9032, 
+=============================================================
+epoch: 12, source_val_acc_label: 0.5372, target_val_acc_label: 0.3151, source_val_label_loss: 1.2736, target_val_label_loss: 2.2306, 
+=============================================================
+epoch: 13, [batch: 1 / 280], examples_per_second: 0.6222, train_label_loss: 0.8185, 
+epoch: 13, [batch: 28 / 280], examples_per_second: 136.7906, train_label_loss: 1.0279, 
+epoch: 13, [batch: 56 / 280], examples_per_second: 146.0343, train_label_loss: 1.0698, 
+epoch: 13, [batch: 84 / 280], examples_per_second: 149.7510, train_label_loss: 0.8797, 
+epoch: 13, [batch: 112 / 280], examples_per_second: 150.2657, train_label_loss: 0.8876, 
+epoch: 13, [batch: 140 / 280], examples_per_second: 151.7246, train_label_loss: 0.7311, 
+epoch: 13, [batch: 168 / 280], examples_per_second: 159.2185, train_label_loss: 0.6874, 
+epoch: 13, [batch: 196 / 280], examples_per_second: 228.4494, train_label_loss: 1.0034, 
+epoch: 13, [batch: 224 / 280], examples_per_second: 298.4386, train_label_loss: 1.1835, 
+epoch: 13, [batch: 252 / 280], examples_per_second: 165.8614, train_label_loss: 0.8889, 
+=============================================================
+epoch: 13, source_val_acc_label: 0.5370, target_val_acc_label: 0.2820, source_val_label_loss: 1.2354, target_val_label_loss: 2.4505, 
+=============================================================
+epoch: 14, [batch: 1 / 280], examples_per_second: 0.6150, train_label_loss: 0.7983, 
+epoch: 14, [batch: 28 / 280], examples_per_second: 170.3587, train_label_loss: 0.6546, 
+epoch: 14, [batch: 56 / 280], examples_per_second: 148.5091, train_label_loss: 0.7471, 
+epoch: 14, [batch: 84 / 280], examples_per_second: 147.9046, train_label_loss: 0.7918, 
+epoch: 14, [batch: 112 / 280], examples_per_second: 150.8571, train_label_loss: 0.9213, 
+epoch: 14, [batch: 140 / 280], examples_per_second: 154.7210, train_label_loss: 0.8464, 
+epoch: 14, [batch: 168 / 280], examples_per_second: 162.3519, train_label_loss: 1.2039, 
+epoch: 14, [batch: 196 / 280], examples_per_second: 168.5525, train_label_loss: 0.7820, 
+epoch: 14, [batch: 224 / 280], examples_per_second: 246.9984, train_label_loss: 0.6207, 
+epoch: 14, [batch: 252 / 280], examples_per_second: 201.4362, train_label_loss: 0.7267, 
+=============================================================
+epoch: 14, source_val_acc_label: 0.5393, target_val_acc_label: 0.3083, source_val_label_loss: 1.2745, target_val_label_loss: 2.2205, 
+=============================================================
+epoch: 15, [batch: 1 / 280], examples_per_second: 0.6186, train_label_loss: 0.6703, 
+epoch: 15, [batch: 28 / 280], examples_per_second: 140.4389, train_label_loss: 0.8397, 
+epoch: 15, [batch: 56 / 280], examples_per_second: 140.8587, train_label_loss: 0.7942, 
+epoch: 15, [batch: 84 / 280], examples_per_second: 142.7218, train_label_loss: 0.7992, 
+epoch: 15, [batch: 112 / 280], examples_per_second: 151.8179, train_label_loss: 1.1053, 
+epoch: 15, [batch: 140 / 280], examples_per_second: 150.9899, train_label_loss: 0.6700, 
+epoch: 15, [batch: 168 / 280], examples_per_second: 152.4157, train_label_loss: 0.9081, 
+epoch: 15, [batch: 196 / 280], examples_per_second: 171.1411, train_label_loss: 0.6627, 
+epoch: 15, [batch: 224 / 280], examples_per_second: 172.9670, train_label_loss: 1.0206, 
+epoch: 15, [batch: 252 / 280], examples_per_second: 173.9027, train_label_loss: 0.9645, 
+=============================================================
+epoch: 15, source_val_acc_label: 0.5247, target_val_acc_label: 0.2617, source_val_label_loss: 1.2781, target_val_label_loss: 2.5457, 
+=============================================================
+epoch: 16, [batch: 1 / 280], examples_per_second: 0.8426, train_label_loss: 0.6150, 
+epoch: 16, [batch: 28 / 280], examples_per_second: 141.1757, train_label_loss: 1.0191, 
+epoch: 16, [batch: 56 / 280], examples_per_second: 142.5757, train_label_loss: 0.9405, 
+epoch: 16, [batch: 84 / 280], examples_per_second: 180.0858, train_label_loss: 0.6056, 
+epoch: 16, [batch: 112 / 280], examples_per_second: 226.6394, train_label_loss: 1.2092, 
+epoch: 16, [batch: 140 / 280], examples_per_second: 165.9651, train_label_loss: 0.7110, 
+epoch: 16, [batch: 168 / 280], examples_per_second: 165.5494, train_label_loss: 0.6533, 
+epoch: 16, [batch: 196 / 280], examples_per_second: 164.8567, train_label_loss: 0.6763, 
+epoch: 16, [batch: 224 / 280], examples_per_second: 163.9407, train_label_loss: 1.0562, 
+epoch: 16, [batch: 252 / 280], examples_per_second: 166.6061, train_label_loss: 0.5908, 
+=============================================================
+epoch: 16, source_val_acc_label: 0.5219, target_val_acc_label: 0.2905, source_val_label_loss: 1.3395, target_val_label_loss: 2.3110, 
+=============================================================
+epoch: 17, [batch: 1 / 280], examples_per_second: 0.6438, train_label_loss: 0.6857, 
+epoch: 17, [batch: 28 / 280], examples_per_second: 132.5577, train_label_loss: 1.1067, 
+epoch: 17, [batch: 56 / 280], examples_per_second: 136.4961, train_label_loss: 0.6318, 
+epoch: 17, [batch: 84 / 280], examples_per_second: 136.3849, train_label_loss: 0.9593, 
+epoch: 17, [batch: 112 / 280], examples_per_second: 153.1092, train_label_loss: 0.6421, 
+epoch: 17, [batch: 140 / 280], examples_per_second: 152.4400, train_label_loss: 0.8709, 
+epoch: 17, [batch: 168 / 280], examples_per_second: 160.4731, train_label_loss: 0.4992, 
+epoch: 17, [batch: 196 / 280], examples_per_second: 165.8524, train_label_loss: 0.7848, 
+epoch: 17, [batch: 224 / 280], examples_per_second: 173.1094, train_label_loss: 0.7642, 
+epoch: 17, [batch: 252 / 280], examples_per_second: 176.4314, train_label_loss: 0.8556, 
+=============================================================
+epoch: 17, source_val_acc_label: 0.5294, target_val_acc_label: 0.2811, source_val_label_loss: 1.3419, target_val_label_loss: 2.3806, 
+=============================================================
+epoch: 18, [batch: 1 / 280], examples_per_second: 0.6550, train_label_loss: 0.6436, 
+epoch: 18, [batch: 28 / 280], examples_per_second: 140.6275, train_label_loss: 0.7904, 
+epoch: 18, [batch: 56 / 280], examples_per_second: 140.2025, train_label_loss: 0.7350, 
+epoch: 18, [batch: 84 / 280], examples_per_second: 146.4897, train_label_loss: 0.5301, 
+epoch: 18, [batch: 112 / 280], examples_per_second: 149.1243, train_label_loss: 0.7445, 
+epoch: 18, [batch: 140 / 280], examples_per_second: 165.1142, train_label_loss: 0.6119, 
+epoch: 18, [batch: 168 / 280], examples_per_second: 265.3574, train_label_loss: 0.8659, 
+epoch: 18, [batch: 196 / 280], examples_per_second: 199.3573, train_label_loss: 0.4263, 
+epoch: 18, [batch: 224 / 280], examples_per_second: 165.1271, train_label_loss: 0.8760, 
+epoch: 18, [batch: 252 / 280], examples_per_second: 164.4007, train_label_loss: 0.5906, 
+=============================================================
+epoch: 18, source_val_acc_label: 0.5227, target_val_acc_label: 0.2722, source_val_label_loss: 1.4014, target_val_label_loss: 2.4987, 
+=============================================================
+epoch: 19, [batch: 1 / 280], examples_per_second: 0.6267, train_label_loss: 0.4745, 
+epoch: 19, [batch: 28 / 280], examples_per_second: 195.8738, train_label_loss: 0.8217, 
+epoch: 19, [batch: 56 / 280], examples_per_second: 136.1403, train_label_loss: 0.4354, 
+epoch: 19, [batch: 84 / 280], examples_per_second: 138.1310, train_label_loss: 0.9616, 
+epoch: 19, [batch: 112 / 280], examples_per_second: 139.0401, train_label_loss: 0.7010, 
+epoch: 19, [batch: 140 / 280], examples_per_second: 145.6145, train_label_loss: 0.4891, 
+epoch: 19, [batch: 168 / 280], examples_per_second: 173.7297, train_label_loss: 0.5402, 
+epoch: 19, [batch: 196 / 280], examples_per_second: 172.3416, train_label_loss: 0.5031, 
+epoch: 19, [batch: 224 / 280], examples_per_second: 173.9386, train_label_loss: 0.6017, 
+epoch: 19, [batch: 252 / 280], examples_per_second: 175.6588, train_label_loss: 0.4920, 
+=============================================================
+epoch: 19, source_val_acc_label: 0.5271, target_val_acc_label: 0.2895, source_val_label_loss: 1.4060, target_val_label_loss: 2.2975, 
+=============================================================
+epoch: 20, [batch: 1 / 280], examples_per_second: 0.6233, train_label_loss: 0.4346, 
+epoch: 20, [batch: 28 / 280], examples_per_second: 142.1106, train_label_loss: 0.7931, 
+epoch: 20, [batch: 56 / 280], examples_per_second: 146.0931, train_label_loss: 0.8134, 
+epoch: 20, [batch: 84 / 280], examples_per_second: 146.6683, train_label_loss: 0.5086, 
+epoch: 20, [batch: 112 / 280], examples_per_second: 150.8634, train_label_loss: 0.6452, 
+epoch: 20, [batch: 140 / 280], examples_per_second: 151.6248, train_label_loss: 0.4858, 
+epoch: 20, [batch: 168 / 280], examples_per_second: 156.5888, train_label_loss: 0.6260, 
+epoch: 20, [batch: 196 / 280], examples_per_second: 264.7443, train_label_loss: 0.5382, 
+epoch: 20, [batch: 224 / 280], examples_per_second: 262.4148, train_label_loss: 0.6252, 
+epoch: 20, [batch: 252 / 280], examples_per_second: 164.8325, train_label_loss: 0.5463, 
+=============================================================
+epoch: 20, source_val_acc_label: 0.5344, target_val_acc_label: 0.2924, source_val_label_loss: 1.4836, target_val_label_loss: 2.3229, 
+=============================================================
+epoch: 21, [batch: 1 / 280], examples_per_second: 0.6164, train_label_loss: 0.4312, 
+epoch: 21, [batch: 28 / 280], examples_per_second: 178.3776, train_label_loss: 0.3554, 
+epoch: 21, [batch: 56 / 280], examples_per_second: 177.1556, train_label_loss: 0.6347, 
+epoch: 21, [batch: 84 / 280], examples_per_second: 140.0507, train_label_loss: 0.6386, 
+epoch: 21, [batch: 112 / 280], examples_per_second: 143.7352, train_label_loss: 0.5937, 
+epoch: 21, [batch: 140 / 280], examples_per_second: 155.8232, train_label_loss: 0.4195, 
+epoch: 21, [batch: 168 / 280], examples_per_second: 152.0997, train_label_loss: 0.6315, 
+epoch: 21, [batch: 196 / 280], examples_per_second: 177.1367, train_label_loss: 0.8053, 
+epoch: 21, [batch: 224 / 280], examples_per_second: 172.0293, train_label_loss: 0.4594, 
+epoch: 21, [batch: 252 / 280], examples_per_second: 175.1751, train_label_loss: 0.3667, 
+=============================================================
+epoch: 21, source_val_acc_label: 0.5138, target_val_acc_label: 0.3023, source_val_label_loss: 1.5225, target_val_label_loss: 2.2470, 
+=============================================================
+Patience (10) exhausted
+Source Test Label Accuracy: 0.5390625 Target Test Label Accuracy: 0.29518229166666665
+Source Val Label Accuracy: 0.5385416666666667 Target Val Label Accuracy: 0.28934895833333335
+Traceback (most recent call last):
+  File "./oracle_prototypical_network_driver.py", line 415, in <module>
+    do_report(p.EXPERIMENT_JSON_PATH, p.LOSS_CURVE_PATH)
+  File "/mnt/wd500GB/CSC500/csc500-super-repo/csc500-homenet-experiments/oracle_ptn_1/results/7/do_report.py", line 73, in do_report
+    ["(seed, dataset seed)", (experiment["parameters"]["seed"], experiment["parameters"]["dataset_seed"])],
+KeyError: 'dataset_seed'
+[CONDUCTOR]: Experiment proc ended
+[CONDUCTOR]: Flush the output buffer
+[CONDUCTOR]: Done flushing
+[CONDUCTOR]: [ERROR] Experiment exited with non-zero code: 1
